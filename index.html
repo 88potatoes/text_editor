@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="title-bar">
+        <span class="document-name" id="documentName">~</span>
+
+        <div class="menu-section">
+            <button id="openDocumentBtn">
+                <span class="material-symbols-outlined"> file_open </span>
+            </button>
+            <button id="createDocumentBtn">
+                <span class="material-symbols-outlined"> note_add </span>
+            </button>
+            <button id="saveBtn">
+                <span class="material-symbols-outlined"> save </span>
+            </button>
+        </div>
+    </div>
+    <main>
+        <textarea id="fileTextarea"disabled></textarea>
+    </main>
+</body>
+</html>

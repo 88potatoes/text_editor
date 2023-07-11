@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title-bar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(182, 182, 141);
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-section button {
+    border: none;
+    outline: none;
+    background-color: beige;
+    -webkit-app-region: no-drag;
+}
+
+/* .menu-section button:hover {
+    mouse
+} */
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+main textarea {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
